@@ -10,7 +10,8 @@ git:
 scripts:
   - yarn test
 notifications:
-  slack: laboratorioplatzi:hLwWi7KlucuNBjy7w11a8BmV
+  slack:
+    secure: "uszq9SiL8zR5dy1x0EJtAda1Yxt1RZPsMvsnsPvDrDf+7A0B/NMLA1gc/h0nfJ9oRUp0tcsNQ+BbGmT6SqOGTOs3tC4UC7bnhNZHg/7osKe+CIz1C3BD4YDbiYPepFCtdV176qqYblzUpF4LLDYHAe1Vl24q3yQY0E3IPNY9wzuxDRwHvSUPT0TjEwUAtv8zZY2pTq9rwD8PuJ9kJTx1beycJ9lnFr0RUXOCtD1+9I5bIlE4bu07Qqf0SPJEJ+vnZzCklAQuXL5KevvZT5dc+Ljkw1eGfpuYCL9X+kyS09lMgYv4KO1ublc4Oe6cGVW9YZtHrKzly9WT8fco9u25zu+hjUXfwIwE25U1lSXgYuaeUq7+t0Xmlg+hoAJmFMLkClVvd/ZUbca8otgwVLjj3mRSD+PbWX8tME0hPAIC3VI62ctYGReFz3Zo0N2dLPVz2xCV15CI2zpjSWwD2ZnpE0gVAXg9ndcu3XifLr50ak/uiU8g63zbexHY/RXzfLNKn427p86anYNxjcwwcm4R9inIi1zRURDRaLzYVqafS0lST1fdDNhg3dpehL1zmUDFv0quEu7lcKxBQL8OoL/UHmcVNCJwXwp4DBQ9smJf2hAR3ej9ON1bbUoVeuyzwl4Vd8vMq/lGUrKu75G+UbW7VJw9NC6ZjZiT/fmeLDmxwMk="
   email:
   recipients:
     - mariocastro.pva@gmail.com
@@ -21,7 +22,8 @@ deploy:
   provider: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 5d83f0ba-bc5a-4831-b7ed-52e868ed8c5e
+  api_key:
+    secure: "OVkxEDcBIiYkn2NF/VfsCESc48Z+QV4a88Udtt0vcnq2ttF2H+li31hRbDil0ECcYKE5BLNLVykFv48hkMbLhMSihGuuFKxzy2MCLh/i39ZpkfPit1soGkGOy0hcPWRTb3533E3MUQdCczIpBOR5HdlOiyIOX2fghmXjwlyovC5umxJDBczjGtTWVX/z8i74/mKQ6M8q6PK2R1M8f3n+VkRncVrkPKgs/PEh414ZhC1/OonPNtzJTSy9eAAFA+64P13od3sAXPctXJLTfG9K0nRM0Vfv11FmwoXVLWGPu651RzT7xKAimSM8elhukbKdYTzg/pBqTbijEQ2+XymBkc4xr4QPGzC6kbG2iVP/ECzbWSZHlY4SBJjlS9Bk8ra8XpBfaqXsqgMFdxoya6B4LnELEoHMpha1ZoliFk7pF/KO0dSXuPUnvR+sGzeZBjxzqviLRpTf4p+jexsbcqTTlgsBcyVTCJ8411FVnAMnDxaqjkxCFDRZnxJcqkjHvpRJoTgBuz2X7nWDNJqirN69Kc3m+EPVdUYSZjQS/ICy/jZFon8iBuKmY4bccZzt3yDxd3TWHMZs3odwXqy7Y6XoyH9S+NymafS5AeUTK8c9ku8Vdqk3YNqZR/gTkLu9Ag70h1iYdTqMywvmUQd1dNqNmO0u3HeKj6grLx2siVAeExU="
   app: platzi-store-backend-mario
   on:
     repo: bigmario/platzi-store-backend
